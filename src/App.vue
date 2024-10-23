@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <div class="name" v-if="!isEnter"><img src="./assets/name.png" alt=""></div>
+    <div class="name" v-if="!isEnter"><img src="./assets/name.webp" alt=""></div>
     <div class="titleBox">
       <div v-if="!isEnter" class="innerTitle">IT STUDIO</div>
     </div>
@@ -15,9 +15,9 @@
           <img src="./assets/wave-5.svg" id="shape" />
         </div>
         <div class="blue">
-          <img src="./assets/flowBtm.png" alt="" ref="flowB">
-          <img src="./assets/flowCtr.png" alt="" ref="flowC">
-          <img src="./assets/flowTop.png" alt="" ref="flowT">
+          <img src="./assets/flowBtm.webp" alt="" ref="flowB">
+          <img src="./assets/flowCtr.webp" alt="" ref="flowC">
+          <img src="./assets/flowTop.webp" alt="" ref="flowT">
         </div>
       </div>
     </div>
@@ -25,23 +25,23 @@
       <h2>爱特工作室</h2>
       <div class="lists" ref="lists">
         <div class="year y2023 p5-hover-animation-mix" @mouseover="open23" @mouseleave="leave">
-          <a href="https://www.itstudio.club/" target="_blank">2024级</a>
+          <a href="https://2023.itstudio.club" target="_blank">2024级</a>
         </div>
         <div class="year y2022 p5-hover-animation-mix" @mouseover="open22" @mouseleave="leave">
-          <a href="http://2022.itstudio.club/index" target="_blank">2023级</a>
+          <a href="https://2022.itstudio.club" target="_blank">2023级</a>
         </div>
         <div class="year y2021 p5-hover-animation-mix" @mouseover="open21" @mouseleave="leave">
-          <a href="https://www.2021.itstudio.club/" target="_blank">2022级</a>
+          <a href="https://2021.itstudio.club" target="_blank">2022级</a>
         </div>
         <div class="title">点击查看历年迎新网</div>
       </div>
-      <div class="listbg"><img src="./assets/listbg.png" alt=""></div>
+      <div class="listbg"><img src="./assets/listbg.webp" alt=""></div>
       <div class="show">
         <div class="start" :class="{ 'showUP': !hover }">
           爱特工作室成立于2002年,是一个在中国海洋大学信息科学与工程学部领导主持下,以计算机技术人才培养,网络开发为特色的技术性团体。</div>
-        <div class="show23" :class="{ 'showUP': hover23 }"><img src="./assets/2023.png" alt=""></div>
-        <div class="show22" :class="{ 'showUP': hover22 }"><img src="./assets/2022.png" alt=""></div>
-        <div class="show21" :class="{ 'showUP': hover21 }"><img src="./assets/2021.png" alt=""></div>
+        <div class="show23" :class="{ 'showUP': hover23 }"><img src="./assets/2023.webp" alt=""></div>
+        <div class="show22" :class="{ 'showUP': hover22 }"><img src="./assets/2022.webp" alt=""></div>
+        <div class="show21" :class="{ 'showUP': hover21 }"><img src="./assets/2021.webp" alt=""></div>
       </div>
     </div>
   </div>
@@ -125,7 +125,7 @@ body {
   height: 100vh;
   overflow: hidden;
   min-width: 1300px;
-  background-image: url(./assets/bg.png);
+  background-image: url(./assets/bg.webp);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -470,7 +470,7 @@ body {
   top: 0;
   height: 100vh;
   width: 26vw;
-  background-image: url(./assets/listbg.png);
+  background-image: url(./assets/listbg.webp);
   background-size: 100% 100%;
   right: -50vh;
   z-index: 0;
