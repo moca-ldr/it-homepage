@@ -5,6 +5,10 @@
       <div v-if="!isEnter" class="innerTitle">IT STUDIO</div>
     </div>
     <div class="enter hover-animation-blue" @click="scrollDown" v-if="!isEnter">ENTER</div>
+    <div class="text" v-if="!isEnter">
+      <span>中国海洋大学 | 信息科学与工程学院B505 | @ITStudio All Rights Reserved |</span>
+      <a href="https://beian.miit.gov.cn/" target="_blank">备案号:桂ICP备2022004639号-2</a>
+    </div>
     <div ref="backgd" class="covers">
       <div class="cover">
         <div class="waves" v-if="isEnter">
@@ -143,7 +147,29 @@ body {
   width: 100%;
 }
 
+.text {
+  position: absolute;
+  bottom: 10px;
+  margin-bottom: 10px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.08px;
+  z-index: 100;
+}
 
+.text a {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.08px;
+}
 
 
 
