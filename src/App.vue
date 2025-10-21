@@ -6,7 +6,7 @@
     </div>
     <div class="enter hover-animation-blue" @click="scrollDown" v-if="!isEnter">ENTER</div>
     <div class="text" v-if="!isEnter">
-      <span>中国海洋大学 | 信息科学与工程学院B505 | @ITStudio All Rights Reserved |</span>
+      <span>中国海洋大学 | 西海岸58创新创业工坊 | @ITStudio All Rights Reserved |</span>
       <a href="https://beian.miit.gov.cn/" target="_blank">备案号:桂ICP备2022004639号-2</a>
     </div>
     <div ref="backgd" class="covers">
